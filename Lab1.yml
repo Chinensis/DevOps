@@ -1,6 +1,7 @@
-- name: Touch the same file, but add/remove some permissions
+- name: Creation of directory
   hosts: all
   tasks:
-    ansible.builtin.file:
-      path: /etc/btrogolo/AnsibleAWXFile
-      state: touch
+    file:
+      path: /etc/some_directory
+      state: directory
+      mode: '0755'
