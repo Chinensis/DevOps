@@ -1,0 +1,4 @@
+- name: Touch the same file, but add/remove some permissions
+  ansible.builtin.file:
+    path: /etc/btrogolo/AnsibleAWXFile
+    state: touch
