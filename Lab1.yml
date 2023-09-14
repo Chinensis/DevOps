@@ -3,6 +3,6 @@
   tasks:
     - name: Using of file module to create the directory
       file:
-        path: /btrogolo/AnsibleTestOfDirectoryCreation
+        path: /home/btrogolo/AnsibleTestOfDirectoryCreation
         state: directory
         mode: '0755'
