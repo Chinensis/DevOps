@@ -1,5 +1,5 @@
 - name: Touch the same file, but add/remove some permissions
-  host: all
+  hosts: all
   tasks:
     ansible.builtin.file:
       path: /etc/btrogolo/AnsibleAWXFile
