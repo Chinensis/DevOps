@@ -2,6 +2,7 @@
   hosts: all
   tasks:
     file:
-      path: /etc/some_directory
-      state: directory
-      mode: '0755'
+      - name: Using of file module to create the directory
+        path: /etc/some_directory
+        state: directory
+        mode: '0755'
